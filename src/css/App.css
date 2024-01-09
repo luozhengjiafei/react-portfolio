@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: "poppins";
+  src: url("../fonts/Poppins-Regular.ttf");
+}
+
+.gradual-hover-bottom {
+  position: relative;
+  transition: color 0.3s;
+}
+
+.gradual-hover-bottom::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -2px; /* Adjust based on your font-size and line-height */
+  left: 0;
+  background-color: floralwhite; /* Makes it the same color as the text */
+  transition: width 0.3s;
+}
+
+.gradual-hover-bottom:hover::after {
+  width: 100%;
+}
+
+.icon {
+  display: inline-block; /* or block, depending on layout */
+  transition: transform 0.3s, filter 0.3s; /* Smooth transition for light-up and scale effect */
+  transform: scale(1); /* Default scale */
+}
+
+.icon:hover {
+  filter: brightness(1.5); /* Increase brightness */
+  transform: scale(1.05); /* Slightly increase the size */
+}

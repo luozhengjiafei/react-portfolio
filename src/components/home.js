@@ -17,16 +17,6 @@ function home() {
             </div>
         </div>
 
-        <div className="resumebutton">
-            <a type="button" className="btn btn-light btn-lg download-button" target="_blank" rel="noreferrer" href={resumeFile}>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                Resume/CV
-            </a>
-        </div>
-
         <div className="home_icon" id="about">
             <a type="button" className="home-icon" target="_blank" href=" https://github.com/luozhengjiafei">
                 <i className="fab fa-github home_icons"></i>

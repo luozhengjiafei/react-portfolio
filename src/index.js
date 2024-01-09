@@ -1,25 +1,38 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import './App.css';
-import Footer from './components/footer';
-import Home from './components/home';
-import Info from './components/info';
-import Project from './components/project';
-import Skill from './components/skills';
-import Navbar from './components/navbar';
+import App from './pages/App';
+import Project from './pages/project';
+import Contact from './pages/contact';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.css';
+
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom";
+
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <App />,
+  },
+  {
+    path: "/project",
+    element: <Project />,
+  },
+  {
+    path: "/contact",
+    element: <Contact />,
+  }
+]);
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Navbar/>
-    <Home />
-    <Info />
-    <Skill />
-    <Project />
-    <Footer />
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
 
