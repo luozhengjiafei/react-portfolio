@@ -33,8 +33,8 @@ function project() {
               <div className='col-md-10'>
                 <h1 className='text-5xl font-bold font-poppins text-slate-300 pb-14'>Personal Projects</h1>
                  <div className='project-card grid grid-cols-2 p-1 gap-10'>
-                  <div className="h-40 z-10">
-                          <div className='rounded-lg hover:shadow-md hover:bg-gray-700 hover:bg-opacity-50 transition-all duration-300'>
+                  <div className="m-h-40 z-10 rounded-lg hover:shadow-md hover:bg-gray-700 hover:bg-opacity-50 transition-all duration-300">
+                          <div>
                             <h3 className='font-bold font-poppins text-slate-300'>Personal Portfolio</h3>
                             <p className='font-poppins text-slate-300'>My personal Portfolio website developed in React</p>
                             <p className="d-flex flex-wrap">
@@ -47,10 +47,16 @@ function project() {
                             </a>
                           </div>
                     </div>
-                    <div className="h-40 z-10">
-                          <div className='rounded-lg hover:shadow-md hover:bg-gray-700 hover:bg-opacity-50 transition-all duration-300'>
+                    <div className="m-h-40 z-10 rounded-lg hover:shadow-md hover:bg-gray-700 hover:bg-opacity-50 transition-all duration-300">
+                          <div>
                             <h3 className='font-bold font-poppins text-slate-300'>The Tail-end</h3>
                             <p className='font-poppins text-slate-300'>Interactive data visulization project build with JavaScript and D3.js</p>
+                            <p className='text-slate-400 font-poppins text-xs'>
+                            Developed an interactive data visualization application using D3.js, JavaScript, and Python, which facilitates user
+                            engagement by showcasing global life expectancy versus other factors on a two-dimensional graph.
+                            Trained a polynomial regression model in Python with Pandas using public datasets from Kaggle made into a
+                            user-controlled toggle prediction line feature.
+                            </p>
                             <p className="d-flex flex-wrap">
                               <span className='font-poppins text-teal-300/90 bg-teal-400/40 bg-opacity-60 text-xs pr-2 mr-2 px-2.5 py-0.5 rounded-full z-10'>JavaScript</span>
                               <span className='font-poppins text-teal-300/90 bg-teal-400/40 bg-opacity-60 text-xs pr-2 mr-2 px-2.5 py-0.5 rounded-full z-10'>Python</span>
@@ -61,8 +67,8 @@ function project() {
                             </a>
                           </div>
                       </div>
-                      <div className="h-40 z-10">
-                          <div className='rounded-lg hover:shadow-md hover:bg-gray-700 hover:bg-opacity-50 transition-all duration-300'>
+                      <div className="m-h-40 z-10 rounded-lg hover:shadow-md hover:bg-gray-700 hover:bg-opacity-50 transition-all duration-300">
+                          <div>
                             <h3 className='font-bold font-poppins text-slate-300'>Calculator Application</h3>
                             <p className='font-poppins text-slate-300'>Three calculator application developed in React</p>
                             <p className="d-flex flex-wrap">
@@ -74,8 +80,8 @@ function project() {
                             </a>
                           </div>
                       </div>
-                      <div className="h-40 z-10">
-                          <div className='rounded-lg hover:shadow-md hover:bg-gray-700 hover:bg-opacity-50 transition-all duration-300'>
+                      <div className="m-h-40 z-10 rounded-lg hover:shadow-md hover:bg-gray-700 hover:bg-opacity-50 transition-all duration-300">
+                          <div>
                             <h3 className='font-bold font-poppins text-slate-300'>Inventory Tracking application</h3>
                             <p className='font-poppins text-slate-300'>Inventory tracking application in PHP</p>
                             <p className="d-flex flex-wrap">
