@@ -1,26 +1,28 @@
 import '../css/App.css';
 import {FaGithub} from 'react-icons/fa';
+import Particle from '../js/particle';
 
 function project() {
     return (
-        <main className='bg-slate-700 pl-32 pr-32'>
-
+        <main className='bg-slate-900 pl-32 pr-32'>
+          <Particle />
+          
         <section className='min-h-screen'>
           <nav className='py-14 mb-12 flex justify-end ml-auto flex-wrap'>
             <div className='flex pr-28'>
               <ul className='mr-8'>
                 <li className='gradual-hover-bottom'>
-                  <a className='text-slate-50 font-bold font-poppins no-underline' href='/'>About</a>
+                  <a className='text-slate-300 font-bold font-poppins no-underline' href='/'>About</a>
                 </li>
               </ul>
               <ul className='mr-8'>
                 <li className='gradual-hover-bottom'>
-                  <a className='text-slate-50 font-bold font-poppins no-underline' href='/project'>Projects</a>
+                  <a className='text-slate-300 font-bold font-poppins no-underline' href='/project'>Projects</a>
                 </li>
               </ul>
               <ul className='mr-8'>
                 <li className='gradual-hover-bottom'>
-                  <a className='text-slate-50 font-bold font-poppins no-underline' href='/contact'>Contact</a>
+                  <a className='text-slate-300 font-bold font-poppins no-underline' href='/contact'>Contact</a>
                 </li>  
               </ul>
             </div>
@@ -29,33 +31,64 @@ function project() {
           <div className='container md:w-32 lg:w-48'>
             <div className='row align-items-center justify-content-center'>
               <div className='col-md-10'>
-                <h1 className='text-5xl font-bold font-poppins text-slate-50 pb-14'>Personal Projects</h1>
-                 <div className='project-card flex p-1'>
-                  <div className="h-40">
-                        <div className='mr-2'>
-                          <h3 className='font-bold font-poppins text-slate-50'>The Tail-end</h3>
-                          <p className='font-poppins text-slate-50'>Interactive data visulization project build with JavaScript and D3.js</p>
-                          <p className="d-flex flex-wrap">
-                            <span className='font-poppins text-slate-50 bg-stone-800 bg-opacity-60 text-xs pr-2 mr-2 px-2.5 py-0.5 rounded-full z-10'>JavaScript</span>
-                            <span className='font-poppins text-slate-50 bg-stone-800 bg-opacity-60 text-xs pr-2 mr-2 px-2.5 py-0.5 rounded-full z-10'>Python</span>
-                            <span className='font-poppins text-slate-50 bg-stone-800 bg-opacity-60 text-xs mr-2 px-2.5 py-0.5 rounded-full z-10'>D3.js</span>
-                          </p>
-                          <FaGithub className='icon bg-transparent text-white'/>
-                        </div>
+                <h1 className='text-5xl font-bold font-poppins text-slate-300 pb-14'>Personal Projects</h1>
+                 <div className='project-card grid grid-cols-2 p-1 gap-10'>
+                  <div className="h-40 z-10">
+                          <div className='rounded-lg hover:shadow-md hover:bg-gray-700 hover:bg-opacity-50 transition-all duration-300'>
+                            <h3 className='font-bold font-poppins text-slate-300'>Personal Portfolio</h3>
+                            <p className='font-poppins text-slate-300'>My personal Portfolio website developed in React</p>
+                            <p className="d-flex flex-wrap">
+                              <span className='font-poppins text-teal-300/90 bg-teal-400/40 bg-opacity-60 text-xs pr-2 mr-2 px-2.5 py-0.5 rounded-full z-10'>React</span>
+                              <span className='font-poppins text-teal-300/90 bg-teal-400/40 bg-opacity-60 text-xs pr-2 mr-2 px-2.5 py-0.5 rounded-full z-10'>JavaScript</span>
+                              <span className='font-poppins text-teal-300/90 bg-teal-400/40 bg-opacity-60 text-xs mr-2 px-2.5 py-0.5 rounded-full z-10'>Tailwind</span>
+                            </p>
+                            <a href='https://luozhengjiafei.github.io/TheTailEnd/' target="_blank" rel="noreferrer" className='text-gray-400 hover:text-slate-50 text-xl'>
+                              <FaGithub className='icon bg-transparent'/>
+                            </a>
+                          </div>
                     </div>
-                    <div className="h-40">
-                        <div>
-                          <h3 className='font-bold font-poppins text-slate-50'>The Tail-end</h3>
-                          <p className='font-poppins text-slate-50'>Interactive data visulization project build with JavaScript and D3.js</p>
-                          <p className="d-flex flex-wrap">
-                            <span className='font-poppins text-slate-50 bg-stone-800 bg-opacity-60 text-xs pr-2 mr-2 px-2.5 py-0.5 rounded-full z-10'>JavaScript</span>
-                            <span className='font-poppins text-slate-50 bg-stone-800 bg-opacity-60 text-xs pr-2 mr-2 px-2.5 py-0.5 rounded-full z-10'>Python</span>
-                            <span className='font-poppins text-slate-50 bg-stone-800 bg-opacity-60 text-xs mr-2 px-2.5 py-0.5 rounded-full z-10'>D3.js</span>
-                          </p>
-                          <FaGithub className='icon bg-transparent text-white'/>
-                        </div>
-                    </div>
-                 </div>
+                    <div className="h-40 z-10">
+                          <div className='rounded-lg hover:shadow-md hover:bg-gray-700 hover:bg-opacity-50 transition-all duration-300'>
+                            <h3 className='font-bold font-poppins text-slate-300'>The Tail-end</h3>
+                            <p className='font-poppins text-slate-300'>Interactive data visulization project build with JavaScript and D3.js</p>
+                            <p className="d-flex flex-wrap">
+                              <span className='font-poppins text-teal-300/90 bg-teal-400/40 bg-opacity-60 text-xs pr-2 mr-2 px-2.5 py-0.5 rounded-full z-10'>JavaScript</span>
+                              <span className='font-poppins text-teal-300/90 bg-teal-400/40 bg-opacity-60 text-xs pr-2 mr-2 px-2.5 py-0.5 rounded-full z-10'>Python</span>
+                              <span className='font-poppins text-teal-300/90 bg-teal-400/40 bg-opacity-60 text-xs mr-2 px-2.5 py-0.5 rounded-full z-10'>D3.js</span>
+                            </p>
+                            <a href='https://luozhengjiafei.github.io/TheTailEnd/' target="_blank" rel="noreferrer" className='text-gray-400 hover:text-slate-50 text-xl'>
+                              <FaGithub className='icon bg-transparent'/>
+                            </a>
+                          </div>
+                      </div>
+                      <div className="h-40 z-10">
+                          <div className='rounded-lg hover:shadow-md hover:bg-gray-700 hover:bg-opacity-50 transition-all duration-300'>
+                            <h3 className='font-bold font-poppins text-slate-300'>Calculator Application</h3>
+                            <p className='font-poppins text-slate-300'>Three calculator application developed in React</p>
+                            <p className="d-flex flex-wrap">
+                              <span className='font-poppins text-teal-300/90 bg-teal-400/40 bg-opacity-60 text-xs pr-2 mr-2 px-2.5 py-0.5 rounded-full z-10'>React</span>
+                              <span className='font-poppins text-teal-300/90 bg-teal-400/40 bg-opacity-60 text-xs pr-2 mr-2 px-2.5 py-0.5 rounded-full z-10'>JavaScript</span>
+                            </p>
+                            <a href='https://luozhengjiafei.github.io/Calculator/' target="_blank" rel="noreferrer" className='text-gray-400 hover:text-slate-50 text-xl'>
+                              <FaGithub className='icon bg-transparent'/>
+                            </a>
+                          </div>
+                      </div>
+                      <div className="h-40 z-10">
+                          <div className='rounded-lg hover:shadow-md hover:bg-gray-700 hover:bg-opacity-50 transition-all duration-300'>
+                            <h3 className='font-bold font-poppins text-slate-300'>Inventory Tracking application</h3>
+                            <p className='font-poppins text-slate-300'>Inventory tracking application in PHP</p>
+                            <p className="d-flex flex-wrap">
+                              <span className='font-poppins text-teal-300/90 bg-teal-400/40 bg-opacity-60 text-xs pr-2 mr-2 px-2.5 py-0.5 rounded-full z-10'>PHP</span>
+                              <span className='font-poppins text-teal-300/90 bg-teal-400/40 bg-opacity-60 text-xs mr-2 px-2.5 py-0.5 rounded-full z-10'>JavaScript</span>
+                              <span className='font-poppins text-teal-300/90 bg-teal-400/40 bg-opacity-60 text-xs mr-2 px-2.5 py-0.5 rounded-full z-10'>SQlite</span>
+                            </p>
+                            <a href='https://luozhengjiafei.github.io/Calculator/' target="_blank" rel="noreferrer" className='text-gray-400 hover:text-slate-50 text-xl'>
+                              <FaGithub className='icon bg-transparent'/>
+                            </a>
+                          </div>
+                      </div>
+                  </div>
               </div>
             </div>
           </div>
