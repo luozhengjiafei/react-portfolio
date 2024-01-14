@@ -1,6 +1,7 @@
 import '../css/App.css';
 import Particle from '../js/particle';
-
+import Navbar from '../components/navbar.js';
+import Footer from '../components/footer.js';
 
 function contact() {
     return (
@@ -8,25 +9,7 @@ function contact() {
           <Particle />
 
         <section className='min-h-screen'>
-          <nav className='py-14 mb-12 flex justify-end ml-auto flex-wrap'>
-            <div className='flex pr-28'>
-              <ul className='mr-8'>
-                <li className='gradual-hover-bottom'>
-                  <a className='text-slate-300 font-bold font-poppins no-underline' href='/'>About</a>
-                </li>
-              </ul>
-              <ul className='mr-8'>
-                <li className='gradual-hover-bottom'>
-                  <a className='text-slate-300 font-bold font-poppins no-underline' href='/project'>Projects</a>
-                </li>
-              </ul>
-              <ul className='mr-8'>
-                <li className='gradual-hover-bottom'>
-                  <a className='text-slate-300 font-bold font-poppins no-underline' href='/contact'>Contact</a>
-                </li>  
-              </ul>
-            </div>
-          </nav>
+          <Navbar />
 
           <div className='container md:w-32 lg:w-48'>
             <div className='row align-items-center justify-content-center'>
@@ -44,6 +27,7 @@ function contact() {
             </div>
           </div>
         </section>
+        <Footer />
       </main>
 
     );

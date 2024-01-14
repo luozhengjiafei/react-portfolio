@@ -1,16 +1,10 @@
-import { FaGithub, FaLinkedin} from 'react-icons/fa';
 function footer() {
     return (
         <footer className="footer" id="contact">
-            <div className='gap-16 text-3xl flex justify-center text-white'>
-                <a href='https://github.com/luozhengjiafei' target="_blank" rel="noreferrer" className='text-inherit'>
-                <FaGithub className='icon bg-transparent'/>
-                </a>
-                <a href='https://www.linkedin.com/in/jeffrey-luozheng-85883a16b/' target="_blank" rel="noreferrer" className='text-inherit'>
-                <FaLinkedin className='icon bg-transparent'/>
-                </a>
+            <div className='gap-16 text-center text-white pb-2'>
+                <h4 className='text-slate-300 text-sm font-poppins'>© 2024 Jeffrey LuoZheng</h4>
             </div>
         </footer>
     );
   }
-  export default footer;
+export default footer;

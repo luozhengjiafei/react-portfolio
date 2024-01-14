@@ -1,7 +1,8 @@
 import '../css/App.css';
 import resumeFile from '../file/resume.pdf';
 import Particle from '../js/particle.js';
-import { FaGithub, FaLinkedin} from 'react-icons/fa';
+import Navbar from '../components/navbar.js';
+import Footer from '../components/footer.js';
 
 function App() {
   return (
@@ -13,54 +14,21 @@ function App() {
       <main className='bg-slate-900 lg:px-4 xl:px-22 2xl:px-36'>
 
         <section className='min-h-screen'>
-          <nav className='py-14 mb-12 flex justify-between ml-auto flex-wrap'>
-          <div className='flex justify-between'>
-            <ul className='ml-12'>
-              <li className='text-3xl'>
-                  <a href='https://github.com/luozhengjiafei' target="_blank" rel="noreferrer" className='text-gray-400 hover:text-slate-50'>
-                    <FaGithub className='icon bg-transparent'/>
-                  </a>
-                </li>
-              </ul>
-              <ul className='text-3xl ml-5'>
-                <a href='https://www.linkedin.com/in/jeffrey-luozheng-85883a16b/' target="_blank" rel="noreferrer" className='text-gray-400 hover:text-slate-50'>
-                  <FaLinkedin className='icon bg-transparent'/>
-                </a>
-              </ul>
-            </div>
-            
-            <div className='flex justify-between pr-28'>
-              <ul className='mr-8'>
-                <li className='gradual-hover-bottom'>
-                  <a className='text-slate-300 font-bold font-poppins no-underline' href='/'>About</a>
-                </li>
-              </ul>
-              <ul className='mr-8'>
-                <li className='gradual-hover-bottom'>
-                  <a className='text-slate-300 font-bold font-poppins no-underline' href='/project'>Projects</a>
-                </li>
-              </ul>
-              <ul className='mr-8'>
-                <li className='gradual-hover-bottom'>
-                  <a className='text-slate-300 font-bold font-poppins no-underline' href='/contact'>Contact</a>
-                </li>  
-              </ul>
-            </div>
-          </nav>
+          <Navbar/>
 
           <div className='p-10 pl-20 row-auto'>
             <div class="md:flex gap-10">
 
-              <div class="text-left md:shrink-0 md:max-w-3xl z-10">
+              <div class="text-left md:shrink-0 md:max-w-xl z-10">
                 <h3 className='text-slate-300 font-bold font-poppins pb-2'>Hello,</h3>
                 <h1 className='text-slate-300 font-bold font-poppins tracking-widest pb-3'>I'm Jeffrey LuoZheng</h1>
                 <h4 className='text-slate-300 font-bold font-poppins pb-2'>A recent UBC CS Graduates.</h4>
-                <p className='text-slate-300 font-poppins pb-2'>
-                  I have a passion for software development and 
+                <p className='text-slate-400 font-poppins pb-2'>
+                  I have a passion for software development and a strong interest in web development, data science, and machine learning.
                   
                 </p>
-                <p className='text-slate-300 font-poppins pb-2'>
-                  I love to learn new technologies and tackle challenging problems.
+                <p className='text-slate-400 font-poppins pb-2'>
+                  I love to learn new technologies and tackle challenging problems, and I am always looking for opportunities to grow and improve my skills.
                 </p>
 
                 <div className='group'>
@@ -82,8 +50,8 @@ function App() {
                       <p className='text-slate-300 font-poppins text-sm'>University of British Columbia</p>
                       <p className='text-slate-300 font-poppins text-sm'>Vancouver, BC</p>
                       <p className='text-slate-400 font-poppins text-xs'>
-                        Worked as an Computer Science teaching assistant for Introduction to Relational Databases (CPSC 304) courses. 
-                        Hosted weekly office hours and tutorials to assist students with their labs, class projects, and course materials.
+                      Worked as a computer science teaching assistant for Introduction to Relational Databases (CPSC 304) courses. 
+                      Hosted weekly office hours and tutorials to assist students with their labs, class projects, and course materials.
                       </p>
                       <p className="d-flex flex-wrap">
                         <span className='font-poppins text-teal-300/90 bg-teal-400/40 bg-opacity-60 text-xs pr-2 mr-2 px-2.5 py-0.5 rounded-full z-10'>PHP</span>
@@ -189,6 +157,7 @@ function App() {
 
           </div>
         </section>
+        <Footer />
       </main>
     </div>
   );
