@@ -44,10 +44,12 @@ function project() {
                             <h3 className='font-bold font-poppins text-slate-300'>The Tail-end</h3>
                             <p className='font-poppins text-slate-300'>Interactive data visulization project build with JavaScript and D3.js</p>
                             <p className='text-slate-400 font-poppins text-xs'>
-                            An interactive data visualization application using D3.js, JavaScript, and Python, which facilitates user
-                            engagement by showcasing global life expectancy versus other factors on a two-dimensional graph.
-                            Trained a polynomial regression model in Python with Pandas using public datasets from Kaggle made into a
-                            user-controlled toggle prediction line feature.
+                            Developed an interactive data visualization application utilizing D3.js, JavaScript, and Python to present global life
+                            expectancy alongside other factors on a two-dimensional graph to visualize predicted trends
+                            </p>
+                            <p className='text-slate-400 font-poppins text-xs'>
+                              Utilized Python with Pandas to train a polynomial regression machine learning model, leveraging public datasets
+                            sourced from Kaggle. Integrated the model into the application, enabling users to explore and analyze trends
                             </p>
                             <p className="d-flex flex-wrap">
                               <span className='font-poppins text-teal-300/90 bg-teal-400/40 bg-opacity-60 text-xs pr-2 mr-2 px-2.5 py-0.5 rounded-full z-10'>JavaScript</span>

@@ -71,11 +71,14 @@ function App() {
                       <p className='text-slate-300 font-poppins text-sm'>HSBC Canada</p>
                       <p className='text-slate-300 font-poppins text-sm'>Vancouver, BC</p>
                       <p className='text-slate-400 font-poppins text-xs'>
-                      Engineered a Process API with to handle data transmission between the API gateway and the
-                      backend server for fetching and sending personalized promotion data and boosted overall revenue by
-                      informing clients of investment opportunities on mobile. Implemented React-based web and mobile UI features and backend services, including data validation by making
-                      API calls, user section timeout, and the creation of various new React components.
+                      Designed and implemented a Process API using Springboot and Java to optimize data transmission between the
+                      API gateway and servers, resulting in increased revenue generation by delivering timely investment opportunities
+                      to mobile platforms
                       </p>
+                      <p className='text-slate-400 font-poppins text-xs'>
+                      Developed React web and mobile UI components, integrating risk assessment and address validation features
+                      through backend API calls in JavaScript and NodeJs, enhanced the useability and security of banking services,
+                      improved overall customer satisfaction</p>
                       <p className="d-flex flex-wrap">
                         <span className='font-poppins text-teal-300/90 bg-teal-400/40 bg-opacity-60 text-xs pr-2 mr-2 px-2.5 py-0.5 rounded-full z-10'>Java</span>
                         <span className='font-poppins text-teal-300/90 bg-teal-400/40 bg-opacity-60 text-xs mr-2 px-2.5 py-0.5 rounded-full z-10'>Spring</span>
@@ -93,11 +96,16 @@ function App() {
                       <p className='text-slate-300 font-poppins text-sm'>CPD Institute</p>
                       <p className='text-slate-300 font-poppins text-sm'>Richmond, BC</p>
                       <p className='text-slate-400 font-poppins text-xs'>
-                      Implemented frontend UI and backend enhancement features for the company's primary website using React,
-                      enabled OAuth2 registration and login functionalities with Facebook and Google accounts, leading to a simplified
-                      user registration.
-                      Constructed server-side REST APIs using PHP and Laravel, which supported OAuth 2.0 token validation for user
-                      authentication, facilitating record updates, and data validation for the primary website.
+                      Streamlined user registration processes by incorporating OAuth2 authentication functionalities in PHP and
+                      Laravel, leveraging a MySQL database, which led to a notable increase in overall user registration numbers
+                      </p>
+                      <p className='text-slate-400 font-poppins text-xs'>
+                      Designed and developed server-side REST APIs in PHP and Laravel, integrating OAuth 2.0 token validation for
+                      user authentication, thereby facilitating seamless record updates and date validation between website and server
+                      </p>
+                      <p className='text-slate-400 font-poppins text-xs'>
+                      Revamped the company’s primary website by implementing frontend UI components and backend enhancement
+                      features using React, NodeJs and MySQL, resulting in a significant improvement in overall user experience
                       </p>
                       <p className="d-flex flex-wrap">
                         <span className='font-poppins text-teal-300/90 bg-teal-400/40 bg-opacity-60 text-xs pr-2 mr-2 px-2.5 py-0.5 rounded-full z-10'>JavaScript</span>
@@ -117,10 +125,12 @@ function App() {
                       <p className='text-slate-300 font-poppins text-sm'>University of British Columbia</p>
                       <p className='text-slate-300 font-poppins text-sm'>Kelowna, BC</p>
                       <p className='text-slate-400 font-poppins text-xs'>
-                      Designed and developed an educational web application using PHP with the Laravel framework.
-                      Overhauled features include new user-friendly UIs for new web pages, an invitation email system powered by
-                      MailTrap to facilitate user registration, course-sharing features, and a PDF course outline generator tailored for
-                      professors.
+                      Designed and developed an educational web application using PHP, Laravel and MySQL to enhance teaching
+                      staff's ability to visualize course structure and assessment practices, resulting in an enriched learning experience
+                      </p>
+                      <p className='text-slate-400 font-poppins text-xs'>
+                      Implemented a course-sharing feature and an invitation email system utilizing MailTrap and MySQL, facilitating
+                      seamless collaboration between students and professors, thereby fostering a more dynamic learning environment
                       </p>
                       <p className="d-flex flex-wrap">
                         <span className='font-poppins text-teal-300/90 bg-teal-400/40 bg-opacity-60 text-xs pr-2 mr-2 px-2.5 py-0.5 rounded-full z-10'>PHP</span>
@@ -139,10 +149,11 @@ function App() {
                       <p className='text-slate-300 font-poppins text-sm'>Reliable Controls</p>
                       <p className='text-slate-300 font-poppins text-sm'>Victoria, BC</p>
                       <p className='text-slate-400 font-poppins text-xs'>
-                      Orchestrated and developed full-stack web pages and a REST API with PHP for product lookup and update.
-                      Automated the product update process through the API to MySQL, which improved the department's
-                      productivity and led to hours of manual work time saved weekly.
+                      Orchestrated and developed full-stack web pages and REST APIs with PHP for efficient product searching and
+                      filtering features, which enhanced user functionality and experience
                       </p>
+                      <p className='text-slate-400 font-poppins text-xs'>Automated product update and deletion processes by integrating a backend REST API with MySQL, leading to a
+                      significant increase in the product department's operational efficiency and saved hours of labour weekly</p>
                       <p className="d-flex flex-wrap">
                         <span className='font-poppins text-teal-300/90 bg-teal-400/40 bg-opacity-60 text-xs pr-2 mr-2 px-2.5 py-0.5 rounded-full z-10'>PHP</span>
                         <span className='font-poppins text-teal-300/90 bg-teal-400/40 bg-opacity-60 text-xs pr-2 mr-2 px-2.5 py-0.5 rounded-full z-10'>MySQL</span>
